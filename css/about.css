@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 100px;
+    background-color: darkblue;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/digi\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: rgba(0, 0, 0, .7);
+}
+
+.info h4 {
+    color: steelblue;
+}
+
+.info h3 {
+    color: rgb(6, 6, 53);
+}
+
+.info p {
+    color: gray;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bar span {
+    height: 10px;
+    float: left;
+    background: #2187e7;
+}
+
+.Abc1 {
+    width: 95%;
+    animation: Abc1 .8s;
+}
+
+.Abc2 {
+    width: 90%;
+    animation: Abc2 .8s;
+}
+
+.Abc3 {
+    width: 85%;
+    animation: Abc3 .8s;
+}
+
+@keyframes Abc1 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes Abc2 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes Abc3 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+footer {
+    /* width: 100%; */
+    height: 400px;
+    background-color: #112d4e;
+    padding-top: 55px;
+    clear: both;
+}
+
+.contact_col {
+    float: left;
+    width: 23%;
+    color: white;
+    height: 250px;
+    margin: 14px;
+    line-height: 2;
+}
+
+.contact_col .logo2 {
+    padding-left: 15px;
+}
+
+.contact_col li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.contact_col li:hover {
+    color: #3f72af;
+}
+
+.quick {
+    margin-left: 25%;
+}
+
+.icons ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #3f72af;
+    border-radius: 100%;
+    margin: 10px 8px;
+}
+
+.icons ul li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+.icons ul li a i {
+    line-height: 30px;
+}
+
+.mob_img img {
+    width: 200px;
+}
